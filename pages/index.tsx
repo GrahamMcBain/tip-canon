@@ -1,4 +1,3 @@
-import Blobby from '@/components/svg/blobby'
 import { useLogin, usePrivy } from '@privy-io/react-auth'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
@@ -23,16 +22,16 @@ const Index = () => {
 	return (
 		<>
 			<Head>
-				<title>Privy Farcaster Demo</title>
+				<title>TipCanon💰🎉</title>
 			</Head>
 			<main>
 				<div className='flex h-screen w-screen flex-col items-center justify-center'>
-					<Blobby />
+					{/* <Blobby /> */}
 					<h2 className='my-4 text-xl font-semibold text-gray-800'>
-						Privy Farcaster Demo
+						TipCanon💰🎉
 					</h2>
-					<h2 className='my-4 text-md text-gray-800'>
-						You can login with and write to Farcaster using Privy.
+					<h2 className='text-md my-4 text-gray-800'>
+						The most fun you can have tipping people on the internet.
 					</h2>
 					<div className='mt-2 w-1/2'>
 						<button

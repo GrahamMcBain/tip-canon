@@ -127,13 +127,15 @@ export default function FarcasterPage() {
 	return (
 		<>
 			<Head>
-				<title>Tip Canon</title>
+				<title>TipCanon💰🎉</title>
 			</Head>
 
 			<main className='flex min-h-screen flex-col bg-privy-light-blue px-4 py-6 sm:px-20 sm:py-10'>
 				<ToastContainer />
 				<div className='flex flex-row justify-between'>
-					<h1 className='text-2xl font-semibold'>Tip Canon 0.1</h1>
+					<h1 className='text-2xl font-semibold'>
+						Welcome to TipCanon {farcasterAccount?.displayName}! 💰🎉
+					</h1>
 					<div className='flex flex-row gap-4'>
 						<button
 							onClick={logout}
@@ -144,9 +146,15 @@ export default function FarcasterPage() {
 					</div>
 				</div>
 				<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-					Welcome {farcasterAccount?.displayName}!
+					How to play:
 					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-						TipCanon is your chance to win a daily barage of tips!
+						1. Join TipCanon
+					</p>
+					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
+						2. Lose Nothing
+					</p>
+					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
+						3. Possibly win everything
 					</p>
 				</p>
 				<div className='rounded-md border bg-slate-100 p-4'>
@@ -157,7 +165,7 @@ export default function FarcasterPage() {
 						Username: {farcasterAccount?.username}
 					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
-						Have you authorized TipCanon? {signerPublicKey ?? 'NO'}
+						Have you authorized TipCanon? {signerPublicKey ? 'Yes!' : 'NO'}
 					</p>
 				</div>
 				<div className='flex flex-wrap gap-4'>
@@ -196,6 +204,18 @@ export default function FarcasterPage() {
 					>
 						Submit
 					</button>
+					<div className='flex flex-wrap gap-4'>
+						<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
+							What is TipCanon?
+						</p>
+						<p className='my-2 text-sm text-gray-600'>
+							Tip Canon is a group tipping prize game using your degen tips. You
+							join the game by authorizing TipCanon to cast one degen tip to
+							winner of the daily game. If you win, you get all the tips. If you
+							lose, you lose nothing. You can play as many times as you want.
+							And keep an eye out of other fun incentives and games 😉
+						</p>
+					</div>
 				</div>
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					My Casts
