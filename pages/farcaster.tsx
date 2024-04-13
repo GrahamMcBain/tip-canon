@@ -174,7 +174,10 @@ export default function FarcasterPage() {
 						Username: {farcasterAccount?.username}
 					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
-						Have you entered to win TipCannon? {signerPublicKey ? 'Yes I am entered to win!' : 'No, I don't like winning'}
+						Have you entered to win TipCannon?{' '}
+						{signerPublicKey
+							? 'Yes I am entered to win!'
+							: 'No, I dont like winning!'}
 					</p>
 				</div>
 				<div className='flex flex-wrap gap-4'>
