@@ -200,6 +200,23 @@ export default function FarcasterPage() {
 						</button>
 					)}
 				</div>
+				<div className='flex flex-wrap gap-4'>
+					<p className='mb-2 mt-6 rounded-md  border bg-slate-100 p-4 text-sm text-gray-600'>
+						How it works:
+						<br />
+						<br />
+						1. Login, then contribute 5% of your daily degen tips for a chance
+						to win the daily prize pool!
+						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+							2. Starting 4/29/2024, one lucky winner will be chosen to win the
+							prize pool daily!
+						</p>
+						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+							3. Play as much as you want or leave TipCannon at anytime. Winners
+							are announced from the TipCannon farcaster account!
+						</p>
+					</p>
+				</div>
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					Tell your friends to join TipCannon!
 				</p>

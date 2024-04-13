@@ -21,10 +21,10 @@ const Index = () => {
 
 	return (
 		<>
+			<Head>
+				<title>TipCannon💰🎉</title>
+			</Head>
 			<div className='flex justify-center'>
-				<Head>
-					<title>TipCannon💰🎉</title>
-				</Head>
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center'>
 						<h2 className='my-4 text-xl font-semibold text-gray-800'>
