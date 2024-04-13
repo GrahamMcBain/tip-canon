@@ -178,7 +178,7 @@ export default function FarcasterPage() {
 				<br />
 				<div className='rounded-md border bg-slate-100 p-4'>
 					<p className='my-2 text-sm text-gray-600'>
-						<p class='font-bold'>Current Status?</p>{' '}
+						<p className='font-bold'>Current Status?</p>{' '}
 						{signerPublicKey ? 'Entered and ready to blast!' : 'Not entered'}
 					</p>
 				</div>
