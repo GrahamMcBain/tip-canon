@@ -156,10 +156,10 @@ export default function FarcasterPage() {
 							one of two messages per day on your behalf.
 						</p>
 						<br />
-						1. "Yay I won TipCannon!"
+						1. '"Yay I won TipCannon!"'
 						<br />
-						2. "Congratulations! Here is your [5% of my tip allowance] $degen
-						tip!""
+						2. '"Congratulations! Here is your [5% of my tip allowance] $degen
+						tip!"'
 						{/* <p class='font-bold'>
 							Have you entered to win TipCannon?{' '}
 							{signerPublicKey
