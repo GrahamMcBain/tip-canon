@@ -171,7 +171,7 @@ export default function FarcasterPage() {
 						</p> */}
 						<br />
 						<br />
-						<p class='font-bold'>
+						<p className='font-bold'>
 							*You can opt out of TipCannon at any time by removing TipCannon
 							from your connected apps in warpcast.
 						</p>
