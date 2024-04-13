@@ -125,17 +125,15 @@ export default function FarcasterPage() {
 	})
 
 	return (
-		<>
+		<div className='flex justify-center'>
 			<Head>
 				<title>TipCannon💰🎉</title>
 			</Head>
 
-			<main className='flex min-h-screen flex-col bg-privy-light-blue px-4 py-6 sm:px-20 sm:py-10'>
+			<main className='flex min-h-screen max-w-screen-sm flex-col bg-privy-light-blue px-4 py-6 sm:px-20 sm:py-10'>
 				<ToastContainer />
 				<div className='flex flex-row justify-between'>
-					<h1 className='text-2xl font-semibold'>
-						Welcome to TipCannon💰🎉 {farcasterAccount?.displayName}!
-					</h1>
+					<h1 className='text-2xl font-semibold'>Welcome to TipCannon💰🎉</h1>
 					<div className='flex flex-row gap-4'>
 						<button
 							onClick={logout}
@@ -145,27 +143,7 @@ export default function FarcasterPage() {
 						</button>
 					</div>
 				</div>
-				<div className='flex flex-wrap gap-4'>
-					{/* <p className='mb-2 mt-6 text-sm font-bold  text-gray-600'>
-						What is TipCannon💰🎉?
-					</p> */}
-
-					<p className='mb-2 mt-6 text-sm   text-gray-600'>
-						TipCannon💰🎉 is a group tipping prize game! Contribute 5% of your
-						daily degen tips for a chance to win the daily prize pool!
-						<p className='mb-2 mt-6 text-sm   text-gray-600'>
-							1. You play the game by letting TipCannon💰🎉 cast one degen tip
-							on your behalf per day.
-						</p>
-						<p className='mb-2 mt-6 text-sm   text-gray-600'>
-							2. If you win, you get all the tips. If you lose, you lose
-							nothing.
-						</p>
-						<p className='mb-2 mt-6 text-sm  text-gray-600'>
-							3. Play as many times as you want!
-						</p>
-					</p>
-				</div>
+				<br />
 				<div className='rounded-md border bg-slate-100 p-4'>
 					{/* <p className='my-2 text-sm text-gray-600'>
 						Display Name: {farcasterAccount?.displayName}
@@ -174,10 +152,41 @@ export default function FarcasterPage() {
 						Username: {farcasterAccount?.username}
 					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
-						Have you entered to win TipCannon?{' '}
-						{signerPublicKey
-							? 'Yes I love winning!'
-							: 'No I do not love winning'}
+						<p class='font-bold'>
+							By entering the TipCannon game you are allowing TipCannon to post
+							one of two messages per day on your behalf.
+						</p>
+						<br />
+						1. "Yay I won TipCannon!"
+						<br />
+						2. "Congratulations! Here is your [5% of my tip allowance] $degen
+						tip!""
+						{/* <p class='font-bold'>
+							Have you entered to win TipCannon?{' '}
+							{signerPublicKey
+								? 'Yes I love winning!'
+								: 'No I have not entered yet'}
+						</p> */}
+						<br />
+						<br />
+						<p class='font-bold'>
+							*You can opt out of TipCannon at any time by removing TipCannon
+							from your connected apps in warpcast.
+						</p>
+					</p>
+				</div>
+				<br />
+				<br />
+				<div className='rounded-md border bg-slate-100 p-4'>
+					{/* <p className='my-2 text-sm text-gray-600'>
+						Display Name: {farcasterAccount?.displayName}
+					</p>
+					<p className='my-2 text-sm text-gray-600'>
+						Username: {farcasterAccount?.username}
+					</p> */}
+					<p className='my-2 text-sm text-gray-600'>
+						<p class='font-bold'>Current Status?</p>{' '}
+						{signerPublicKey ? 'Entered and ready to blast!' : 'Not entered'}
 					</p>
 				</div>
 				<div className='flex flex-wrap gap-4'>
@@ -187,11 +196,11 @@ export default function FarcasterPage() {
 							onClick={requestFarcasterSigner}
 							disabled={!!signerPublicKey}
 						>
-							Authorise Tip Cannon!
+							Enter TipCannon!
 						</button>
 					)}
 				</div>
-				<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
+				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					Tell your friends to join TipCannon!
 				</p>
 				<div className='flex flex-wrap gap-4'>
@@ -216,7 +225,7 @@ export default function FarcasterPage() {
 					>
 						Submit
 					</button>
-				</div>
+				</div> */}
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					My Casts
 				</p>
@@ -247,6 +256,6 @@ export default function FarcasterPage() {
 					</button>
 				</div> */}
 			</main>
-		</>
+		</div>
 	)
 }

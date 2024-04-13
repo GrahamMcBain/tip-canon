@@ -11,7 +11,7 @@ module.exports = {
 			},
 			colors: {
 				'privy-navy': '#4CAF50',
-				'privy-light-blue': '#388E3C',
+				'privy-light-blue': '#ccf5ac',
 				'privy-blueish': '#C8E6C9',
 				'privy-pink': '#FFFFFF',
 			},
