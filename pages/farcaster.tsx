@@ -180,12 +180,6 @@ export default function FarcasterPage() {
 				<br />
 				<br />
 				<div className='rounded-md border bg-slate-100 p-4'>
-					{/* <p className='my-2 text-sm text-gray-600'>
-						Display Name: {farcasterAccount?.displayName}
-					</p>
-					<p className='my-2 text-sm text-gray-600'>
-						Username: {farcasterAccount?.username}
-					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
 						<p class='font-bold'>Current Status?</p>{' '}
 						{signerPublicKey ? 'Entered and ready to blast!' : 'Not entered'}
