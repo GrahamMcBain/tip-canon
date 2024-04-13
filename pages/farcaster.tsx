@@ -134,7 +134,7 @@ export default function FarcasterPage() {
 				<ToastContainer />
 				<div className='flex flex-row justify-between'>
 					<h1 className='text-2xl font-semibold'>
-						Welcome to TipCanon {farcasterAccount?.displayName}! 💰🎉
+						Welcome to TipCanon💰🎉 {farcasterAccount?.displayName}!
 					</h1>
 					<div className='flex flex-row gap-4'>
 						<button
@@ -145,18 +145,27 @@ export default function FarcasterPage() {
 						</button>
 					</div>
 				</div>
-				<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-					How to play:
-					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-						1. Join TipCanon
+				<div className='flex flex-wrap gap-4'>
+					{/* <p className='mb-2 mt-6 text-sm font-bold  text-gray-600'>
+						What is TipCanon💰🎉?
+					</p> */}
+
+					<p className='mb-2 mt-6 text-sm   text-gray-600'>
+						TipCanon💰🎉 is a group tipping prize game! Contribute 5% of your
+						daily degen tips for a chance to win the daily prize pool!
+						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+							1. You play the game by letting TipCanon💰🎉 cast one degen tip on
+							your behalf per day.
+						</p>
+						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+							2. If you win, you get all the tips. If you lose, you lose
+							nothing.
+						</p>
+						<p className='mb-2 mt-6 text-sm  text-gray-600'>
+							3. You can play as many times as you want, until the end of time
+						</p>
 					</p>
-					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-						2. Lose Nothing
-					</p>
-					<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-						3. Possibly win everything
-					</p>
-				</p>
+				</div>
 				<div className='rounded-md border bg-slate-100 p-4'>
 					{/* <p className='my-2 text-sm text-gray-600'>
 						Display Name: {farcasterAccount?.displayName}
@@ -204,18 +213,6 @@ export default function FarcasterPage() {
 					>
 						Submit
 					</button>
-					<div className='flex flex-wrap gap-4'>
-						<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-							What is TipCanon?
-						</p>
-						<p className='my-2 text-sm text-gray-600'>
-							Tip Canon is a group tipping prize game using your degen tips. You
-							join the game by authorizing TipCanon to cast one degen tip to
-							winner of the daily game. If you win, you get all the tips. If you
-							lose, you lose nothing. You can play as many times as you want.
-							And keep an eye out of other fun incentives and games 😉
-						</p>
-					</div>
 				</div>
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					My Casts
