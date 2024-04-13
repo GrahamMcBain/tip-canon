@@ -151,7 +151,7 @@ export default function FarcasterPage() {
 						Username: {farcasterAccount?.username}
 					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
-						<p class='font-bold'>
+						<p className='font-bold'>
 							By entering the TipCannon game you are allowing TipCannon to post
 							one of two messages per day on your behalf.
 						</p>
