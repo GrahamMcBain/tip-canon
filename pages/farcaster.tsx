@@ -127,14 +127,14 @@ export default function FarcasterPage() {
 	return (
 		<>
 			<Head>
-				<title>TipCanon💰🎉</title>
+				<title>TipCannon💰🎉</title>
 			</Head>
 
 			<main className='flex min-h-screen flex-col bg-privy-light-blue px-4 py-6 sm:px-20 sm:py-10'>
 				<ToastContainer />
 				<div className='flex flex-row justify-between'>
 					<h1 className='text-2xl font-semibold'>
-						Welcome to TipCanon💰🎉 {farcasterAccount?.displayName}!
+						Welcome to TipCannon💰🎉 {farcasterAccount?.displayName}!
 					</h1>
 					<div className='flex flex-row gap-4'>
 						<button
@@ -147,22 +147,22 @@ export default function FarcasterPage() {
 				</div>
 				<div className='flex flex-wrap gap-4'>
 					{/* <p className='mb-2 mt-6 text-sm font-bold  text-gray-600'>
-						What is TipCanon💰🎉?
+						What is TipCannon💰🎉?
 					</p> */}
 
 					<p className='mb-2 mt-6 text-sm   text-gray-600'>
-						TipCanon💰🎉 is a group tipping prize game! Contribute 5% of your
+						TipCannon💰🎉 is a group tipping prize game! Contribute 5% of your
 						daily degen tips for a chance to win the daily prize pool!
 						<p className='mb-2 mt-6 text-sm   text-gray-600'>
-							1. You play the game by letting TipCanon💰🎉 cast one degen tip on
-							your behalf per day.
+							1. You play the game by letting TipCannon💰🎉 cast one degen tip
+							on your behalf per day.
 						</p>
 						<p className='mb-2 mt-6 text-sm   text-gray-600'>
 							2. If you win, you get all the tips. If you lose, you lose
 							nothing.
 						</p>
 						<p className='mb-2 mt-6 text-sm  text-gray-600'>
-							3. You can play as many times as you want, until the end of time
+							3. Play as many times as you want!
 						</p>
 					</p>
 				</div>
@@ -174,7 +174,7 @@ export default function FarcasterPage() {
 						Username: {farcasterAccount?.username}
 					</p> */}
 					<p className='my-2 text-sm text-gray-600'>
-						Have you authorized TipCanon? {signerPublicKey ? 'Yes!' : 'NO'}
+						Have yowu authorized TipCannon? {signerPublicKey ? 'Yes!' : 'NO'}
 					</p>
 				</div>
 				<div className='flex flex-wrap gap-4'>
@@ -184,16 +184,16 @@ export default function FarcasterPage() {
 							onClick={requestFarcasterSigner}
 							disabled={!!signerPublicKey}
 						>
-							Authorise Tip Canon!
+							Authorise Tip Cannon!
 						</button>
 					)}
 				</div>
 				<p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
-					Tell your friends to join TipCanon!
+					Tell your friends to join TipCannon!
 				</p>
 				<div className='flex flex-wrap gap-4'>
 					<input
-						placeholder='I am playing TipCanon for a chance to win a daily barage of tips! @tipcanon'
+						placeholder='I am playing TipCannon for a chance to win a daily barage of tips! @tipcannon'
 						className='w-full rounded-md'
 						type='text'
 						value={castInput}

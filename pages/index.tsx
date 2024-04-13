@@ -22,13 +22,13 @@ const Index = () => {
 	return (
 		<>
 			<Head>
-				<title>TipCanon💰🎉</title>
+				<title>TipCannon💰🎉</title>
 			</Head>
 			<main>
 				<div className='flex h-screen w-screen flex-col items-center justify-center'>
 					{/* <Blobby /> */}
 					<h2 className='my-4 text-xl font-semibold text-gray-800'>
-						TipCanon💰🎉
+						TipCannon💰🎉
 					</h2>
 					<h2 className='text-md my-4 text-gray-800'>
 						The most fun you can have tipping people on the internet.
