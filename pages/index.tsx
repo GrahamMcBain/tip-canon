@@ -31,7 +31,7 @@ const Index = () => {
 						TipCannon💰🎉
 					</h2>
 					<h2 className='text-md my-4 text-gray-800'>
-						The most fun you can have tipping people on the internet.
+						Enter to win a daily barrage of tips from the degen community!
 					</h2>
 					<div className='mt-2 w-1/2'>
 						<button
