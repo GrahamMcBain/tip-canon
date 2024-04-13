@@ -176,8 +176,8 @@ export default function FarcasterPage() {
 					<p className='my-2 text-sm text-gray-600'>
 						Have you entered to win TipCannon?{' '}
 						{signerPublicKey
-							? 'Yes I am entered to win!'
-							: 'No, I dont like winning!'}
+							? 'Yes I love winning!'
+							: 'No I do not love winning'}
 					</p>
 				</div>
 				<div className='flex flex-wrap gap-4'>
@@ -187,7 +187,7 @@ export default function FarcasterPage() {
 							onClick={requestFarcasterSigner}
 							disabled={!!signerPublicKey}
 						>
-							Enter TipCannon!
+							Authorise Tip Cannon!
 						</button>
 					)}
 				</div>
