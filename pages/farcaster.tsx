@@ -157,8 +157,7 @@ export default function FarcasterPage() {
 						<br />
 						2.{' '}
 						<span className='my-2 text-sm text-gray-600'>
-							&quot;Congratulations! Here is your [5% of my tip allowance]
-							$degen tip!&quot;
+							&quot;Congratulations [5% of my tip allowance] $degen &quot;
 						</span>
 						<br />
 						<br />
@@ -195,15 +194,18 @@ export default function FarcasterPage() {
 						1. Login, then contribute 5% of your daily degen tips for a chance
 						to win the daily prize pool!
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
+							<br />
 							2. Starting 4/29/2024, one lucky winner will be chosen to win the
 							prize pool daily!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
+							<br />
 							3. Play as much as you want or leave TipCannon at anytime. Winners
 							are announced from the TipCannon farcaster account!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
-							More questions? More questions? More questions?{' '}
+							<br />
+							More questions?{' '}
 							<a
 								href='https://moored-myrtle-2f2.notion.site/TipCannon-FAQ-b86123c756d74d488bccf8456261a357'
 								style={{
