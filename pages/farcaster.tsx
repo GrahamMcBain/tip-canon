@@ -208,6 +208,10 @@ export default function FarcasterPage() {
 							3. Play as much as you want or leave TipCannon at anytime. Winners
 							are announced from the TipCannon farcaster account!
 						</p>
+						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+							More questions? [Check our FAQ
+							page.](https://moored-myrtle-2f2.notion.site/TipCannon-FAQ-b86123c756d74d488bccf8456261a357)
+						</p>
 					</p>
 				</div>
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
