@@ -144,41 +144,35 @@ export default function FarcasterPage() {
 				</div>
 				<br />
 				<div className='rounded-md border bg-slate-100 p-4'>
-					{/* <p className='my-2 text-sm text-gray-600'>
-						Display Name: {farcasterAccount?.displayName}
-					</p>
-					<p className='my-2 text-sm text-gray-600'>
-						Username: {farcasterAccount?.username}
-					</p> */}
-					<p className='my-2 text-sm text-gray-600'>
-						<p className='font-bold'>
+					<div className='my-2 text-sm text-gray-600'>
+						<span className='font-bold'>
 							By entering the TipCannon game you are allowing TipCannon to post
 							one of two messages per day on your behalf.
-						</p>
+						</span>
 						<br />
 						1.{' '}
-						<p className='my-2 text-sm text-gray-600'>
+						<span className='my-2 text-sm text-gray-600'>
 							&quot;Yay I won TipCannon!&quot;
-						</p>
+						</span>
 						<br />
 						2.{' '}
-						<p className='my-2 text-sm text-gray-600'>
+						<span className='my-2 text-sm text-gray-600'>
 							&quot;Congratulations! Here is your [5% of my tip allowance]
 							$degen tip!&quot;
-						</p>
+						</span>
 						<br />
 						<br />
-						<p className='font-bold'>
+						<span className='font-bold'>
 							*You can opt out of TipCannon at any time by removing TipCannon
 							from your connected apps in warpcast.
-						</p>
-					</p>
+						</span>
+					</div>
 				</div>
 				<br />
 				<br />
 				<div className='rounded-md border bg-slate-100 p-4'>
 					<p className='my-2 text-sm text-gray-600'>
-						<p className='font-bold'>Current Status?</p>{' '}
+						<span className='font-bold'>Current Status?</span>{' '}
 						{signerPublicKey ? 'Entered and ready to blast!' : 'Not entered'}
 					</p>
 				</div>
@@ -194,21 +188,21 @@ export default function FarcasterPage() {
 					)}
 				</div>
 				<div className='flex flex-wrap gap-4'>
-					<p className='mb-2 mt-6 rounded-md  border bg-slate-100 p-4 text-sm text-gray-600'>
+					<div className='mb-2 mt-6 rounded-md  border bg-slate-100 p-4 text-sm text-gray-600'>
 						How it works:
 						<br />
 						<br />
 						1. Login, then contribute 5% of your daily degen tips for a chance
 						to win the daily prize pool!
-						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							2. Starting 4/29/2024, one lucky winner will be chosen to win the
 							prize pool daily!
-						</p>
-						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+						</span>
+						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							3. Play as much as you want or leave TipCannon at anytime. Winners
 							are announced from the TipCannon farcaster account!
-						</p>
-						<p className='mb-2 mt-6 text-sm   text-gray-600'>
+						</span>
+						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							More questions? More questions? More questions?{' '}
 							<a
 								href='https://moored-myrtle-2f2.notion.site/TipCannon-FAQ-b86123c756d74d488bccf8456261a357'
@@ -220,8 +214,8 @@ export default function FarcasterPage() {
 							>
 								Check our FAQ page.
 							</a>
-						</p>
-					</p>
+						</span>
+					</div>
 				</div>
 				{/* <p className='mb-2 mt-6 text-sm font-bold uppercase text-gray-600'>
 					Tell your friends to join TipCannon!
