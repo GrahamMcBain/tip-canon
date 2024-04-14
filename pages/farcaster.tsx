@@ -209,8 +209,17 @@ export default function FarcasterPage() {
 							are announced from the TipCannon farcaster account!
 						</p>
 						<p className='mb-2 mt-6 text-sm   text-gray-600'>
-							More questions? [Check our FAQ
-							page.](https://moored-myrtle-2f2.notion.site/TipCannon-FAQ-b86123c756d74d488bccf8456261a357)
+							More questions? More questions? More questions?{' '}
+							<a
+								href='https://moored-myrtle-2f2.notion.site/TipCannon-FAQ-b86123c756d74d488bccf8456261a357'
+								style={{
+									textDecoration: 'underline',
+									color: 'blue',
+									cursor: 'pointer',
+								}}
+							>
+								Check our FAQ page.
+							</a>
 						</p>
 					</p>
 				</div>
