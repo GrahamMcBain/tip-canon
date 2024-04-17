@@ -72,7 +72,7 @@ const Index = () => {
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center'>
 						<Image
-							src='/images/512-cannon.png'
+							src='/images/512-Cannon.png'
 							alt='Cannon'
 							width={250} // Adjust width as needed
 							height={150} // Adjust height as needed
