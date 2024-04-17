@@ -70,6 +70,14 @@ const Index = () => {
 			<div className='flex justify-center'>
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center'>
+						<img
+							src='/images/512-cannon.png'
+							alt='Cannon'
+							width={250} // Adjust width as needed
+							height={150} // Adjust height as needed
+							className='mb-4 mt-10 ' // Margin bottom for spacing
+						/>
+
 						<h2 className='my-4 text-xl font-semibold text-gray-800'>
 							TipCannon💰🎉
 						</h2>
