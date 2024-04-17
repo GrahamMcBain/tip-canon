@@ -150,19 +150,21 @@ export default function FarcasterPage() {
 							one of two messages per day on your behalf.
 						</span>
 						<br />
+						<br />
 						1.{' '}
 						<span className='my-2 text-sm text-gray-600'>
 							&quot;Yay I won TipCannon!&quot;
 						</span>
 						<br />
+						<br />
 						2.{' '}
 						<span className='my-2 text-sm text-gray-600'>
-							&quot;Congratulations [5% of my tip allowance] $degen &quot;
+							&quot; [5% of my tip allowance] $degen &quot;
 						</span>
 						<br />
 						<br />
 						<span className='font-bold'>
-							*You can opt out of TipCannon at any time by removing TipCannon
+							You can opt out of TipCannon at any time by removing TipCannon
 							from your connected apps in warpcast.
 						</span>
 					</div>
@@ -191,19 +193,22 @@ export default function FarcasterPage() {
 						How it works:
 						<br />
 						<br />
-						1. Login, then contribute 5% of your daily degen tips for a chance
-						to win the daily prize pool!
+						1. Contribute 5% of your daily degen tips for a chance to win the
+						daily prize pool!
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							<br />
-							2. Starting 4/29/2024, one lucky winner will be chosen to win the
+							<br />
+							2. Starting 4/20/2024, one lucky winner will be chosen to win the
 							prize pool daily!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
+							<br />
 							<br />
 							3. Play as much as you want or leave TipCannon at anytime. Winners
 							are announced from the TipCannon farcaster account!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
+							<br />
 							<br />
 							More questions?{' '}
 							<a
