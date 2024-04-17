@@ -1,6 +1,5 @@
 import { useLogin, usePrivy } from '@privy-io/react-auth'
 import Head from 'next/head'
-import Image from 'next/image' // Make sure to import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 const Index = () => {
@@ -30,7 +29,7 @@ const Index = () => {
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center '>
 						{/* Image is a self-closing tag and should not be wrapped inside h2 tags */}
-						<Image
+						<img
 							src='/images/512-cannon.png'
 							alt='Cannon'
 							width={250}
@@ -49,10 +48,10 @@ const Index = () => {
 								<br />
 								<br />
 								1. Login, then contribute 5% of your daily degen tips for the
-								opportunity to win the daily prize pool!
+								opportunity to win the daily degen TipCannon Blast!
 								<div className='mb-2 mt-6 text-sm text-gray-600'>
-									2. Starting 4/20/2024 one winner gets blasted by the most
-									tips.
+									2. Everyday, starting on 4/20/2024, there will be an
+									opportunity to win the big prize!
 								</div>
 								<div className='mb-2 mt-6 text-sm text-gray-600'>
 									3. Play as much as you want or leave TipCannon at anytime.
