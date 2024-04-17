@@ -198,8 +198,8 @@ export default function FarcasterPage() {
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							<br />
 							<br />
-							2. Starting 4/20/2024, one lucky winner will be chosen to win the
-							prize pool daily!
+							2. Starting 4/20/2024, winners will be chosen to win the prize
+							pool daily!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							<br />
