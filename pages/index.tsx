@@ -1,5 +1,6 @@
 import { useLogin, usePrivy } from '@privy-io/react-auth'
 import Head from 'next/head'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 const Index = () => {
@@ -70,11 +71,19 @@ const Index = () => {
 			<div className='flex justify-center'>
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center'>
+						<Image
+							src='/images/512-cannon.png'
+							alt='Cannon'
+							width={250} // Adjust width as needed
+							height={150} // Adjust height as needed
+							className='mb-4 mt-10 ' // Margin bottom for spacing
+						/>
+
 						<h2 className='my-4 text-xl font-semibold text-gray-800'>
-							TipCannon💰🎉
+							TipCannon
 						</h2>
 						<h2 className='text-md my-4 text-gray-800'>
-							A daily barrage of tips from the degen community!
+							Someone gets blasted by tips everyday! Will it be you?
 						</h2>
 						<div className='flex flex-wrap gap-4'>
 							<div className='mb-2 mt-6 rounded-md border bg-slate-100 p-4 text-sm text-gray-600'>
