@@ -1,5 +1,6 @@
 import { useLogin, usePrivy } from '@privy-io/react-auth'
 import Head from 'next/head'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 const Index = () => {
@@ -70,7 +71,7 @@ const Index = () => {
 			<div className='flex justify-center'>
 				<main>
 					<div className='flex h-screen w-screen flex-col items-center justify-center'>
-						<img
+						<Image
 							src='/images/512-cannon.png'
 							alt='Cannon'
 							width={250} // Adjust width as needed
