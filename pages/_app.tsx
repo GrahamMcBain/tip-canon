@@ -1,6 +1,6 @@
-import type { AppProps } from 'next/app'
 import '@/styles/globals.css'
 import { PrivyProvider } from '@privy-io/react-auth'
+import type { AppProps } from 'next/app'
 
 const App = ({ Component, pageProps }: AppProps) => {
 	return (
