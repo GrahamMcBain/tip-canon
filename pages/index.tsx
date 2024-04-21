@@ -51,7 +51,7 @@ const Index = () => {
 								1. Login, then contribute 5% of your daily degen tips for the
 								opportunity to win!
 								<div className='mb-2 mt-6 text-sm text-gray-600'>
-									2. Everyday, starting on 4/20/2024, there will be an
+									2. Everyday, starting on 4/24/2024, there will be an
 									opportunity to win the big prize!
 								</div>
 								<div className='mb-2 mt-6 text-sm text-gray-600'>

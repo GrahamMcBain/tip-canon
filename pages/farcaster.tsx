@@ -159,7 +159,7 @@ export default function FarcasterPage() {
 						<br />
 						2.{' '}
 						<span className='my-2 text-sm text-gray-600'>
-							&quot; [5% of my tip allowance] $degen &quot;
+							&quot;[5% of my tip allowance] $degen &quot;
 						</span>
 						<br />
 						<br />
@@ -198,7 +198,7 @@ export default function FarcasterPage() {
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
 							<br />
 							<br />
-							2. Starting 4/20/2024, winners will be chosen to win the prize
+							2. Starting 4/24/2024, winners will be chosen to win the prize
 							pool daily!
 						</span>
 						<span className='mb-2 mt-6 text-sm   text-gray-600'>
